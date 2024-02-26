@@ -52,7 +52,7 @@ class SpotlightPlugin implements Plugin
 
     public static function registerNavigation($panel)
     {
-        RegisterPages::boot($panel);
+        // RegisterPages::boot($panel);
         RegisterResources::boot($panel);
         RegisterUserMenu::boot($panel);
     }
